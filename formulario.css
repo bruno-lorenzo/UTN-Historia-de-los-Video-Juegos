@@ -1,38 +1,182 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-color: rgb(99,230,190); */
-    background-image: url(../UTN-TP-parte-1/img/imgcontenido.jpg);
+    background: linear-gradient(#333, rgb(59, 57, 57));
+    
 }
-
+/*------------------ HEADER -----------------------*/
 .cabecera {
     display: flex;
-    justify-content: center;
-    background-image: linear-gradient(90deg, #49beb7, #085f63);
-    opacity: 0.9;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#333, rgb(59, 57, 57));
 }
 
-.botones{
+h1{
+    font-size: 40px;
+}
+
+/*------------------  NAV -----------------------*/
+nav{
+    background: linear-gradient(#333, rgb(59, 57, 57));
+}
+
+.nav{
+    text-decoration: none;
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.navegador{    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Merienda', 'sans-serif';
+}
+
+
+/*------------------ CUERPO -----------------------*/
+
+section{
+    background-image: url(../UTN-TP-parte-1/img/imgcontenido.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+ .Contenedor{
+    display: flex;
+    min-height: 800px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AltaUsuario{
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    width: 25%;
+    background-color: whitesmoke;
+    opacity: 0.5;
 }
 
-form{
-    width: 300px; 
-    margin: 100px auto;
-    border: 1px black solid;
-    background-color: whitesmoke;
-    opacity: 0.6;
-    padding: 0 30px;
-    background-image: linear-gradient(90deg, #1D406D, #3F67A9);
+.AltaUsuario:hover{
+    opacity: 1;
+}
 
+.ubicacion{
+    opacity: 0.5;
+}
+
+.ubicacion:hover{
+    opacity: 1;
+}
+
+.Botones{
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+} 
+
+.boton{
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px black solid;
+    background-color: black;
+    color: aliceblue;
+}
+
+.boton:hover {
+    background-color: #008CBA;
+    color: white;
 }
 
 input {
     color: blue;
 }
 
-.comentarios{
-    display: none;
+/*------------------ footer  -----------------------*/
+footer{
+    background: linear-gradient(#333, rgb(59, 57, 57));
+}
+
+.footer1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.submenu{
+    list-style: none;
+}
+
+.submenu a{
+    text-decoration: none;
+    color: black;
+}
+
+.submenu a:hover{
+    background-color: #008CBA;
+    color: white;
+}
+
+i{
+    font-size: 60px;
+    background-color: rgb(206,212,218);
+}
+
+.footer2{
+    display: flex;
+}
+
+.fab{
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.fa-instagram:hover{
+    color:red;
+}
+
+.fa-twitter-square:hover{
+    color: #008CBA;
+}
+
+.fa-facebook:hover{
+color:blue;
 }
