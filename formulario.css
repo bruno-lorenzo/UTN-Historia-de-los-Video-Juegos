@@ -61,7 +61,6 @@ section{
     background-image: url(../UTN-TP-parte-1/img/imgcontenido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
  .Contenedor{
@@ -84,8 +83,19 @@ section{
     opacity: 1;
 }
 
+span{
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
 .ubicacion{
     opacity: 0.5;
+}
+
+object{
+    width: 500px;
+    height: 580px;
 }
 
 .ubicacion:hover{
