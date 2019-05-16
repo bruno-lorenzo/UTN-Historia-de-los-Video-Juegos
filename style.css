@@ -211,7 +211,7 @@ li a:hover{
 
 /*------------------  FORMULARIO -----------------------*/
 
-section{
+#section1{
     background-image: url(./img/imgcontenido.jpg);
     background-repeat: no-repeat;
     background-size: cover;
